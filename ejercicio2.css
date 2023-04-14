@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+    /*color de la tipo*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*tipografia*/
+    background-color: yellow;
+    /*fondo*/
+    text-transform: uppercase;
+    /*mayuscula*/
+    text-align: center;
+    /*centrar el titulo*/
+}
+
+h2 {
+    color: blue;
+    font-size: 26px;
+    /*tamaño de la tipo*/
+}
+
+p {
+    color: green;
+    font-weight: 100;
+    /*negrita*/
+    font-style: italic;
+    /*variante italica, queda inclinada*/
+
+}
+
+/*esto es un comentario en css*/
