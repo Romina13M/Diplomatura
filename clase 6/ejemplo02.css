@@ -1,0 +1,16 @@
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+h1, h2{
+    color: red;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+p{
+    color: blue;
+    font-family: 'Open Sans', sans-serif;
+}
+.destacado
