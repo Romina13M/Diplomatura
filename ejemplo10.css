@@ -1,0 +1,38 @@
+.caja{
+    width: 400px;
+    height: 300px;
+    background-color: blue;
+    font-family: arial;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    transition: all 0.3s ease;
+    
+}
+
+@keyframes rectangulo {
+    15%{
+        transform: translate(20px);
+    }
+    30%{
+        transform: translate(-20px)}
+
+    45%{
+        transform: translate(10px) rotate(-90deg);
+    }
+
+    60%{
+        transform: translate(-10px);
+    }
+    100%{
+        transform: translate(20px);
+    }
+}
+
+.caja:hover{
+    animation: rectangulo 1s ease;
+    animation-iteration-count: 5;
+}
+
