@@ -14,13 +14,14 @@
 
 @keyframes rectangulo {
     15%{
-        transform: translate(20px);
+        transform: translate(20px); background-color: blue;
     }
     30%{
-        transform: translate(-20px)}
+        transform: translate(-20px); background-color: yellow; 
+    } 
 
     45%{
-        transform: translate(10px) rotate(-90deg);
+        transform: translate(10px) rotate(-90deg); background-color: orange;
     }
 
     60%{
