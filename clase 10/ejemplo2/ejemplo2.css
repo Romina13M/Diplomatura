@@ -8,7 +8,91 @@ body{
     margin: 0 auto;
 }
 
+
 header{
     background-color: #bfa68e;
     padding: 20px;
 }
+
+.holder{ /* contenedor de nav main aside*/
+    display:flex;
+   }
+
+nav{
+    background-color: #c0392b;
+    width: 30%;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main{
+    width: 40%;
+    background-color: #f7dc6f;
+}
+
+aside{
+    width: 30%;
+    background-color: #1abc9c;
+}
+
+footer{
+    background-color: #ccc59e;
+    text-align: center;
+    padding: 5px;
+}
+
+@media screen and (max-width:480px){
+    /*aca va a ir toda la regla que necesito modificar para que se vea bien en este corte- como chequie en inspector! para movil*/
+
+    body{
+        background-color: #fdf2e9;
+    }
+
+header{
+    text-align: center;
+    }
+
+    .holder{
+        flex-wrap: wrap;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: space-evenly;
+        /*justify-content: space-between*/
+        padding: 0;
+        margin: 0%;
+    }
+
+    main{
+        width: 100%;
+        color: black;
+        border-bottom: 2px solid black;
+        padding: 0 15px;
+    }
+
+    aside{
+        width: 100%;
+        padding: 0 15px;
+        border-bottom: 2px solid black;
+        /*display: none;*/
+    }
+
+
+}
+
+/*una propiedad que se usa mucho display: none; */
+
