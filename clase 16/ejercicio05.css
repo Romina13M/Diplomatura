@@ -1,0 +1,16 @@
+.boton{/*esta declara en el html*/
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.alternar{/*esta declara en el html*/
+    background-color: lightblue;
+}
+
+.alternar.activo{/*esta declara en el css y lo manejo desde JS*/
+    background-color: blue;
+    color: white;
+}
