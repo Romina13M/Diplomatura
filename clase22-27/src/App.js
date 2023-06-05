@@ -7,7 +7,7 @@ import Footer from "./componentes/layout/Footer";
 
 import HomePages from "./pages/HomePages";
 import Ejemplo1 from "./pages/Ejemplo1";
-
+import Ejemplo2 from './pages/Ejemplo2';
 
 
 
@@ -18,11 +18,12 @@ function App() {
       <Header />
       <BrowserRouter>
         <Nav />
-        <Routes>
-          <Route path='/' element={<HomePages></HomePages>}></Route>
-          <Route path='/ejemplo1' element={<Ejemplo1/>}></Route>
-        </Routes>
-      </BrowserRouter>
+         <Routes>
+          <Route path='/' element={<HomePages/>}></Route>
+           <Route path='/ejemplo1' element={<Ejemplo1/>}></Route> 
+           <Route path='/ejemplo2' element={<Ejemplo2/>}></Route> 
+        </Routes> 
+      </BrowserRouter> 
       <Footer />
 
     </div>
