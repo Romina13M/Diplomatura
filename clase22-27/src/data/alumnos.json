@@ -1,0 +1,27 @@
+[
+{
+    "nombre":"Flavia",
+    "apellido":"Ursino",
+    "edad": 41
+}, 
+{
+    "nombre":"Romina",
+    "apellido":"Mauro",
+    "edad": 34
+},
+{
+    "nombre":"Gabriel",
+    "apellido":"Feltan",
+    "edad": 44
+},
+{
+    "nombre":"Ayelen",
+    "apellido":"Gravina",
+    "edad": 26
+},
+{
+    "nombre":"Bruno",
+    "apellido":"Alliani",
+    "edad": 38
+}
+]
