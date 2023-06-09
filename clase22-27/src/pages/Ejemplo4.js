@@ -5,8 +5,13 @@ const CargaJson = props => {
     return(
         <div>
         <h1>Carga JSON </h1>
-        aca se tiene que imprimir. como? dentro de una p o li. como recorro?penserlo para el viernes.
-
+        <ul>
+        {
+            alumnos.map(alumno =>(
+                <li>{alumno.nombre} {alumno.apellido} ({alumno.edad})</li>
+            ))
+        }
+        </ul>
 
         </div>     
     )

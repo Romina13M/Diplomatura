@@ -10,6 +10,7 @@ import Ejemplo1 from "./pages/Ejemplo1";
 import Ejemplo2 from './pages/Ejemplo2';
 import Ejemplo3 from './pages/Ejemplo3';
 import CargaJson from './pages/Ejemplo4';
+import DatosApi from './pages/Ejemplo5';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
            <Route path='/ejemplo1' element={<Ejemplo1/>}></Route> 
            <Route path='/ejemplo2' element={<Ejemplo2/>}></Route> 
            <Route path='/ejemplo3' element={<Ejemplo3/>}></Route> 
-           <Route path='/ejemplo4' element={<CargaJson/>}></Route> 
+           <Route path='/ejemplo4' element={<CargaJson/>}></Route>
+           <Route path='/ejemplo5' element={<DatosApi/>}></Route> 
         </Routes> 
       </BrowserRouter> 
       <Footer />
